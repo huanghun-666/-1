@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SCenViewController.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 
@@ -24,6 +25,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)clickBtn:(id)sender {
+    SCenViewController *vc = [[SCenViewController alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
+}
+
+
 
 
 @end

@@ -13,6 +13,8 @@
 		6D9B6DC71F8FBD4C00586D2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D9B6DC61F8FBD4C00586D2D /* Assets.xcassets */; };
 		6D9B6DCA1F8FBD4C00586D2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D9B6DC81F8FBD4C00586D2D /* LaunchScreen.storyboard */; };
 		6D9B6DCD1F8FBD4C00586D2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9B6DCC1F8FBD4C00586D2D /* main.m */; };
+		6D9B6DD61F8FBE5B00586D2D /* SCenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9B6DD51F8FBE5B00586D2D /* SCenViewController.m */; };
+		6D9B6DD71F91E25400586D2D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D9B6DD31F8FBD6200586D2D /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		6D9B6DC91F8FBD4C00586D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D9B6DCB1F8FBD4C00586D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D9B6DCC1F8FBD4C00586D2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D9B6DD31F8FBD6200586D2D /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		6D9B6DD41F8FBE5B00586D2D /* SCenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCenViewController.h; sourceTree = "<group>"; };
+		6D9B6DD51F8FBE5B00586D2D /* SCenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCenViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +67,10 @@
 				6D9B6DBE1F8FBD4C00586D2D /* AppDelegate.m */,
 				6D9B6DC01F8FBD4C00586D2D /* ViewController.h */,
 				6D9B6DC11F8FBD4C00586D2D /* ViewController.m */,
+				6D9B6DD41F8FBE5B00586D2D /* SCenViewController.h */,
+				6D9B6DD51F8FBE5B00586D2D /* SCenViewController.m */,
 				6D9B6DC31F8FBD4C00586D2D /* Main.storyboard */,
+				6D9B6DD31F8FBD6200586D2D /* art.scnassets */,
 				6D9B6DC61F8FBD4C00586D2D /* Assets.xcassets */,
 				6D9B6DC81F8FBD4C00586D2D /* LaunchScreen.storyboard */,
 				6D9B6DCB1F8FBD4C00586D2D /* Info.plist */,
@@ -130,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D9B6DCA1F8FBD4C00586D2D /* LaunchScreen.storyboard in Resources */,
+				6D9B6DD71F91E25400586D2D /* art.scnassets in Resources */,
 				6D9B6DC71F8FBD4C00586D2D /* Assets.xcassets in Resources */,
 				6D9B6DC51F8FBD4C00586D2D /* Main.storyboard in Resources */,
 			);
@@ -145,6 +154,7 @@
 				6D9B6DC21F8FBD4C00586D2D /* ViewController.m in Sources */,
 				6D9B6DCD1F8FBD4C00586D2D /* main.m in Sources */,
 				6D9B6DBF1F8FBD4C00586D2D /* AppDelegate.m in Sources */,
+				6D9B6DD61F8FBE5B00586D2D /* SCenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
